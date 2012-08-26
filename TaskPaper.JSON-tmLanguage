@@ -3,28 +3,23 @@
   "fileTypes": ["taskpaper"],
   "patterns": [
         {
-            "name": "entity.name.section",
+            "name": "entity.name.section.taskpaper",
             "match": "^\\t*.*:\\s?$",
             "comment": "Project"
         },
         {
-            "name": "entity.name.tag",
-            "match": "@[-a-zA-Z0-9]+\\s",
+            "name": "entity.name.tag.taskpaper",
+            "match": "@[-_a-zA-Z0-9]+\\s",
             "comment": "Tag"
         },
         {
-            "name": "entity.name.tag",
-            "match": "@[-a-zA-Z0-9]+([^)]*)",
+            "name": "entity.name.tag.taskpaper",
+            "match": "@[-_a-zA-Z0-9]+\\([^)]*\\)",
             "comment": "Tag with value"
         },
         {
-            "name": "comment",
-            "match": "^\\t+[^-\\t].*$",
-            "comment": "Note"
-        },
-        {
-            "name": "comment",
-            "match": "^\\t+-[^ ].*$",
+            "name": "comment.taskpaper",
+            "match": "^\\t+[^-\\t].*$|^\\t+-[^ ].*$",
             "comment": "Note"
         }
   ],
