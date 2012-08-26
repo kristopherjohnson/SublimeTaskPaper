@@ -1,0 +1,32 @@
+{ "name": "TaskPaper",
+  "scopeName": "text.taskpaper",
+  "fileTypes": ["taskpaper"],
+  "patterns": [
+        {
+            "name": "entity.name.section",
+            "match": "^\\t*.*:\\s?$",
+            "comment": "Project"
+        },
+        {
+            "name": "entity.name.tag",
+            "match": "@[-a-zA-Z0-9]+\\s",
+            "comment": "Tag"
+        },
+        {
+            "name": "entity.name.tag",
+            "match": "@[-a-zA-Z0-9]+([^)]*)",
+            "comment": "Tag with value"
+        },
+        {
+            "name": "comment",
+            "match": "^\\t+[^-\\t].*$",
+            "comment": "Note"
+        },
+        {
+            "name": "comment",
+            "match": "^\\t+-[^ ].*$",
+            "comment": "Note"
+        }
+  ],
+  "uuid": "1dde7866-d78a-41ee-b21c-28fcc04f9155"
+}

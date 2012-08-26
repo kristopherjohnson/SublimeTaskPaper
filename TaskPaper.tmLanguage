@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>taskpaper</string>
+	</array>
+	<key>name</key>
+	<string>TaskPaper</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>comment</key>
+			<string>Project</string>
+			<key>match</key>
+			<string>^\t*.*:\s?$</string>
+			<key>name</key>
+			<string>entity.name.section</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tag</string>
+			<key>match</key>
+			<string>@[-a-zA-Z0-9]+\s</string>
+			<key>name</key>
+			<string>entity.name.tag</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Tag with value</string>
+			<key>match</key>
+			<string>@[-a-zA-Z0-9]+([^)]*)</string>
+			<key>name</key>
+			<string>entity.name.tag</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Note</string>
+			<key>match</key>
+			<string>^\t+[^-\t].*$</string>
+			<key>name</key>
+			<string>comment</string>
+		</dict>
+		<dict>
+			<key>comment</key>
+			<string>Note</string>
+			<key>match</key>
+			<string>^\t+-[^ ].*$</string>
+			<key>name</key>
+			<string>comment</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.taskpaper</string>
+	<key>uuid</key>
+	<string>1dde7866-d78a-41ee-b21c-28fcc04f9155</string>
+</dict>
+</plist>
