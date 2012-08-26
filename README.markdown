@@ -8,7 +8,7 @@ To use it, copy the `TaskPaper.tmLanguage` file into your Sublime Text 2 `Packag
 
 ### Features
 
-- Automatically opens files with `.taskpaper` suffix as TextPaper format
+- Automatically opens files with `.taskpaper` suffix as TaskPaper format
 - Project names, notes, and tags are displayed with special highlighting. (Tasks are displayed as plain text.)
 
 
