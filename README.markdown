@@ -1,4 +1,4 @@
-## Sublime Text 2 Syntax Definition File for TextPaper-format Files
+## Sublime Text 2 Syntax Definition File for TaskPaper-format Files
 
 This is a simple syntax definition file for reading TaskPaper files in Sublime Text 2.
 (It might work in TextMate too, but I haven't tried it.)
