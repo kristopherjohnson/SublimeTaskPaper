@@ -11,5 +11,5 @@ This is neither supported nor endorsed by the makers of TaskPaper.
 
 ### Features
 
-- Automatically opens files with `.textpaper` suffix as TextPaper format
+- Automatically opens files with `.taskpaper` suffix as TextPaper format
 - Project names, notes, and tags are displayed with special highlighting. (Tasks are displayed as plain text.)
